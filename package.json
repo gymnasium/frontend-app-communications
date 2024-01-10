@@ -34,11 +34,11 @@
   },
   "dependencies": {
     "@openedx/brand-openedx": "github:gymnasium/brand-openedx#gym.palm.4",
-    "@edx/frontend-component-footer": "12.0.0",
-    "@edx/frontend-component-header": "4.0.0",
+    "@edx/frontend-component-footer": "github:gymnasium/frontend-component-footer#gym.palm.4",
+    "@edx/frontend-component-header": "github:gymnasium/frontend-component-header#gym.palm.4",
     "@edx/frontend-platform": "4.2.0",
     "@edx/openedx-atlas": "^0.5.0",
-    "@edx/paragon": "^20.20.0",
+    "@edx/paragon": "20.46.3",
     "@edx/tinymce-language-selector": "1.1.0",
     "@fortawesome/fontawesome-svg-core": "1.2.36",
     "@fortawesome/free-brands-svg-icons": "5.15.4",
@@ -63,8 +63,8 @@
     "tinymce": "5.10.7"
   },
   "devDependencies": {
-    "@edx/browserslist-config": "^1.2.0",
-    "@edx/frontend-build": "12.9.17",
+    "@edx/browserslist-config": "1.2.0",
+    "@edx/frontend-build": "npm:@openedx/frontend-build@13.0.24",
     "@edx/reactifex": "^2.1.1",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "12.1.5",
